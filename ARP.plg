@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ARP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP32F6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_WSPIAPI_COUNTOF" /Fp"Debug/ARP.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\학교\3학년1학기\데이터통신\실습\hw3\ARP\ARPDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP32F6.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP32F7.tmp" with contents
+[
+wpcap.lib packet.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ARP.pdb" /debug /machine:I386 /out:"Debug/ARP.exe" /pdbtype:sept 
+".\Debug\ARP.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ARPDlg.obj"
+".\Debug\CacheAddDlg.obj"
+".\Debug\ProxyAddDlg.obj"
+".\Debug\ARPLayer.obj"
+".\Debug\BaseLayer.obj"
+".\Debug\ChatAppLayer.obj"
+".\Debug\EthernetLayer.obj"
+".\Debug\IPLayer.obj"
+".\Debug\LayerManager.obj"
+".\Debug\NILayer.obj"
+".\Debug\TCPLayer.obj"
+".\Debug\ARP.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP32F7.tmp"
+<h3>Output Window</h3>
+Compiling...
+ARPDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ARP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

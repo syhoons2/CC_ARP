@@ -1,0 +1,61 @@
+﻿빌드 시작: 2016-05-09 오후 1:22:59
+     1>2 노드의 "C:\Users\dlsdlstjdtjd\Desktop\데이터통\실습\05_ARP\ARP.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 ".\Debug\ARP.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WSPIAPI_COUNTOF /D HAVE_REMOTE /D WPCAP /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\ARP.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ARPLayer.cpp BaseLayer.cpp CacheAddDlg.cpp EthernetLayer.cpp IPLayer.cpp LayerManager.cpp NILayer.cpp ProxyAddDlg.cpp TCPLayer.cpp
+         TCPLayer.cpp
+         ProxyAddDlg.cpp
+     1>c:\users\dlsdlstjdtjd\desktop\데이터통\실습\05_arp\proxyadddlg.cpp(89): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' 선언을 참조하십시오.
+     1>c:\users\dlsdlstjdtjd\desktop\데이터통\실습\05_arp\proxyadddlg.cpp(124): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' 선언을 참조하십시오.
+         NILayer.cpp
+         LayerManager.cpp
+     1>c:\users\dlsdlstjdtjd\desktop\데이터통\실습\05_arp\layermanager.cpp(63): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' 선언을 참조하십시오.
+     1>c:\users\dlsdlstjdtjd\desktop\데이터통\실습\05_arp\layermanager.cpp(76): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+         IPLayer.cpp
+         EthernetLayer.cpp
+         CacheAddDlg.cpp
+     1>c:\users\dlsdlstjdtjd\desktop\데이터통\실습\05_arp\cacheadddlg.cpp(90): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 'sscanf' 선언을 참조하십시오.
+         BaseLayer.cpp
+         ARPLayer.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WSPIAPI_COUNTOF /D HAVE_REMOTE /D WPCAP /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\ARP.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         건너뛰고 있습니다... (관련된 변경 내용 없음)
+         StdAfx.cpp
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ARP.exe" /INCREMENTAL /NOLOGO wpcap.lib packet.lib /MANIFEST /ManifestFile:".\Debug\ARP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\dlsdlstjdtjd\Desktop\데이터통\실습\05_ARP\Debug\ARP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ARP.lib" /MACHINE:X86 .\Debug\ARP.res
+         .\Debug\ARP.exe.embed.manifest.res
+         .\Debug\ARP.obj
+         .\Debug\StdAfx.obj
+         .\Debug\ARPDlg.obj
+         .\Debug\CacheAddDlg.obj
+         .\Debug\ProxyAddDlg.obj
+         .\Debug\ARPLayer.obj
+         .\Debug\BaseLayer.obj
+         .\Debug\EthernetLayer.obj
+         .\Debug\IPLayer.obj
+         .\Debug\LayerManager.obj
+         .\Debug\NILayer.obj
+         .\Debug\TCPLayer.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\ARP.exe.embed.manifest" /manifest .\Debug\ARP.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         ARP.vcxproj -> C:\Users\dlsdlstjdtjd\Desktop\데이터통\실습\05_ARP\.\Debug\ARP.exe
+       FinalizeBuildStatus:
+         ".\Debug\ARP.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Debug\ARP.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\dlsdlstjdtjd\Desktop\데이터통\실습\05_ARP\ARP.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.67
